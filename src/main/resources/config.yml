@@ -1,0 +1,23 @@
+# DeathSound configuration
+# You can edit this file and run /deathsound reload, or use the in-game commands.
+
+# Turn the plugin's sound on or off.
+enabled: true
+
+# Which sound plays when a player dies.
+# Easy names: warden_death, warden_spawn, warden_roar, warden_sonic_boom, warden_heartbeat,
+#   warden_angry, wither_death, wither_spawn, wither_shoot, dragon_death, dragon_growl,
+#   elder_guardian_curse, ghast_scream, thunder, totem
+# OR any sound in the game by its name, e.g. entity.creeper.primed or minecraft:entity.cat.ambient
+# (find names in-game with /deathsound search <word>)
+sound: warden_death
+
+# Pitch of the sound. Allowed range is 0.5 (deep/slow) to 2.0 (high/fast). 1.0 = normal.
+pitch: 1.0
+
+# Volume of the sound (0.1 and up). 1.0 = normal.
+volume: 1.0
+
+# true  = every online player hears the sound when someone dies
+# false = only players near the death location hear it
+play-for-everyone: true

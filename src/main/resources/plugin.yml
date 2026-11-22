@@ -1,0 +1,14 @@
+name: DeathSound
+version: ${project.version}
+main: com.example.deathsound.DeathSoundPlugin
+api-version: '26.3'
+description: Plays any sound in the game when a player dies (Warden death/spawn, Wither, and more), with adjustable pitch.
+commands:
+  deathsound:
+    description: Choose the death sound and adjust its pitch and volume
+    usage: /deathsound <sound|search|list|pitch|volume|test|toggle|reload|info>
+    permission: deathsound.admin
+permissions:
+  deathsound.admin:
+    description: Allows changing the death sound settings
+    default: op
